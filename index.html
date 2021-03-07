@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="heading">Librery Books</h2>
+    <div class="save">
+        <label for="check">Auto Save</label>
+        <input class="check_box" id="check" type="checkbox">
+        <button class="save_btn">Save</button>
+    </div>
+    <div class="contaner">
+        <div class="inputs">
+            <input class="book_name" type="text" placeholder="Book Name..">
+            <input class="author" type="text" placeholder="Auther">
+            <select name="book_catagory" class="catagory">
+                <option selected>Select Catagory</option>
+                <option value="programing">Programing</option>
+                <option value="mathamatics">Mathamatics</option>
+                <option value="physics">Physics</option>
+                <option value="story">Story</option>
+                <option value="other">Other</option>
+            </select>
+            <button class="add_btn">Add</button>
+        </div>
+        <div class="search">
+            <input class="search_box" type="text" placeholder="Lokking for...">
+            <button class="search_btn">Search</button>
+        </div>
+        <div class="table">
+            <table style="border-collapse: collapse;">
+                <colgroup>
+                    <col span="1" style="width: 40%;">
+                    <col span="1" style="width: 30%;">
+                    <col span="1" style="width: 30%;">
+                </colgroup>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Catagory</th>
+                </tr>
+                <!-- <tr>
+                    <td>c programing a to z Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eaque!</td>
+                    <td>denis riche</td>
+                    <td>programing</td>
+                </tr>
+                <tr>
+                    <td>c programing a to z </td>
+                    <td>denis riche</td>
+                    <td>programing</td>
+
+                </tr> -->
+            </table>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
